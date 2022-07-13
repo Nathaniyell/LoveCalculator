@@ -85,7 +85,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(160, 155, 155);
+    background-color: rgb(199, 195, 195);
 }
 
 @media (max-width:1365px) {
@@ -94,7 +94,6 @@ button:hover {
    }
 
     .form-div {
-        
         width: 90%;
     }
 }
@@ -102,7 +101,10 @@ button:hover {
  
     .form-div{
         width: 115%;
-        position: relative;
+      position: relative;
         top: 70px;
+    }
+    form{
+        height: 100%;
     }
 }
