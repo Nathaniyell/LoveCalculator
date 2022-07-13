@@ -40,17 +40,19 @@
 
 .form-div {
     width: 50%;
-    padding: 30px;
+    padding: 20px 12px;
     margin-top: 40px;
+
 }
 
 .form-div #result {
-    margin-bottom: 10px;
+
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
     color: #fff;
     text-align: center;
+    margin: 20px;
 }
 
 form {
@@ -94,17 +96,14 @@ button:hover {
     }
 
     .form-div {
+        position: relative;
         width: 90%;
+        top: 70px;
     }
 }
 
 @media (max-width:715px) {
-    .wrapper {
-        height: 110vh;
-    }
-
     .form-div {
-        margin-top: 30px;
         width: 115%;
         position: relative;
         top: 70px;
@@ -112,5 +111,12 @@ button:hover {
 
     form {
         height: 100%;
+    }
+}
+
+@media (max-width:570px) {
+    .form-div {
+
+        top: 0;
     }
 }
