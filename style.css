@@ -45,9 +45,9 @@
 }
 
 .form-div #result {
-    margin-bottom: 11px;
+    margin-bottom: 10px;
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: #fff;
     text-align: center;
@@ -91,20 +91,26 @@ button:hover {
 @media (max-width:1365px) {
     .wrapper {
         height: 80%;
-   }
+    }
 
     .form-div {
         width: 90%;
     }
 }
-@media (max-width:715px){
- 
-    .form-div{
+
+@media (max-width:715px) {
+    .wrapper {
+        height: 110vh;
+    }
+
+    .form-div {
+        margin-top: 30px;
         width: 115%;
-      position: relative;
+        position: relative;
         top: 70px;
     }
-    form{
+
+    form {
         height: 100%;
     }
 }
