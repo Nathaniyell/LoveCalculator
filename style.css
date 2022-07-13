@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Nunito:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    background-color: rgba(90, 80, 180, 0.5);
+    background-blend-mode: saturation;
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 95%;
+
+}
+
+.welcm {
+    color: rgb(8, 8, 8);
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+.form-div {
+    width: 50%;
+    height: 90%;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.form-div #result {
+    margin-bottom: 11px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+form {
+    background-color: rgba(0, 58, 134, 0.6);
+    width: 100%;
+    height: 80%;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #000;
+    font-size: 17px;
+}
+
+button {
+    font-size: 18px;
+    background-color: #fff;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px 4px 8px rgba(9, 32, 94, 0.5);
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+@media (max-width:1141px) {
+    .wrapper {
+        height: 70%;
+
+
+    }
+
+    .form-div {
+        top: 70px;
+        width: 90%;
+    }
+}
+
+@media (max-width:500px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .form-div {
+        width: 105%;
+
+    }
+}
