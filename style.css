@@ -17,6 +17,7 @@
     background-attachment: fixed;
     height: 100vh;
     width: 100%;
+    padding: 30px;
 }
 
 .wrapper {
@@ -27,7 +28,6 @@
     justify-content: space-around;
     height: 100%;
     width: 95%;
-
 }
 
 .welcm {
@@ -40,9 +40,8 @@
 
 .form-div {
     width: 50%;
-    height: 90%;
     padding: 30px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .form-div #result {
@@ -86,29 +85,24 @@ button {
 }
 
 button:hover {
-    background-color: #eee;
+    background-color: rgb(160, 155, 155);
 }
 
-@media (max-width:1141px) {
+@media (max-width:1365px) {
     .wrapper {
-        height: 70%;
-
-
-    }
+        height: 80%;
+   }
 
     .form-div {
-        top: 70px;
+        
         width: 90%;
     }
 }
-
-@media (max-width:500px) {
-    .wrapper {
-        width: 100%;
-    }
-
-    .form-div {
-        width: 105%;
-
+@media (max-width:715px){
+ 
+    .form-div{
+        width: 115%;
+        position: relative;
+        top: 70px;
     }
 }
